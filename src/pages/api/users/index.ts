@@ -15,6 +15,6 @@ export default (request: NextApiRequest, response: NextApiResponse) => {
 };
 
 // Estratégias de Autenticação
-// JWT (Storage)
+// JWT (Storage, Cookies e RefreshToken)
 // NextAuth (Social Login)
 // Cognito, Auth0
