@@ -25,6 +25,7 @@ export default NextAuth({
   callbacks: {
     async signIn({ user }) {
       const { email } = user;
+
       // Query do Fauna
       // Escrita em FQL, Fauna Query Language
       // Essa função adiciona o email em users no banco de dados, toda vez que alguém logar
