@@ -7,6 +7,15 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+ 
+  @media (max-width: 780px) {
+    text-align: center;
+    flex-direction: column;
+
+    margin-top: 5rem;
+  }
+
 }
 
 .hero {
@@ -40,6 +49,13 @@
   }
 
   button {
+    width: 100%;
+    max-width: 260px;
     margin-top: 2.5rem;
+
+    @media (max-width: 780px) {
+      display: inline;
+      margin-bottom: 2.5rem;
+    }
   }
 }
